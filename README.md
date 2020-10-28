@@ -2,11 +2,9 @@
 
 <hr>
 
-### Django Blogsite 
+### Django Blogsite API
 
-The goal of this assignment is to build a blogsite.
-
-<img src="https://startbootstrap.com/assets/img/screenshots/templates/blog-post.png" alt="email-preview">
+The goal of this assignment is to build ***API*** for a ***Blogsite***.
 
 <hr>
 
@@ -21,12 +19,13 @@ The goal of this assignment is to build a blogsite.
 
 ### Coding Guidelines
 
-- For design ideas and functionality: 
-- Please avoid any frameworks and libraries.
-- Focus more on the Django side of the problem.
+- Please avoid any frameworks and libraries except ***Django REST framework***.
+- Focus more on the ***Django REST framework*** side of the problem.
 - You will be evaluated on
-  - UI & design
   - Modularity of Code
+  - Security
   - Data Structures used
+  - Model serialization
+  - Database designing
   - Logic and cleanliness of code.
   - Completeness.
