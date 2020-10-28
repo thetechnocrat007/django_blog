@@ -6,6 +6,8 @@
 
 The goal of this assignment is to build ***API*** for a ***Blogsite***.
 
+<img src="https://mockupsforfree.com/wp-content/uploads/2018/09/Blog-2.png" />
+
 <hr>
 
 ### APIs
