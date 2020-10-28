@@ -11,21 +11,21 @@ The goal of this assignment is to build ***API*** for a ***Blogsite***.
 ### APIs
 
 1. Authentication
-  1. Login
-  2. Logout
-  3. Signup
+  - Login
+  - Logout
+  - Signup
 2. Blogs
-  1. Create
-  2. Update
-  3. Delete
-  4. List of all
-  5. View of single blog with comments and likes
+  - Create
+  - Update
+  - Delete
+  - List of all
+  - View of single blog with comments and likes
 3. Comment
-  1. Comment in blog
-  2. Comment in comment
+  - Comment in blog
+  - Comment in comment
 4. Like
-  1. Like in blog
-  2. Like in comment
+  - Like in blog
+  - Like in comment
 
 <hr>
 
