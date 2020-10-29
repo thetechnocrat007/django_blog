@@ -4,7 +4,8 @@
 
 ### Django Blogsite API
 
-The goal of this assignment is to build ***API*** for a ***Blogsite***.
+_Don't bother about UIs, we're here for APIs_,
+Here you need to identify the schema/model fields by observing the UIs, The goal of this assignment is to build **_API_** for a **_blog_** site in which you are free to play with as much as possible your sample data.
 
 <img src="https://mockupsforfree.com/wp-content/uploads/2018/09/Blog-2.png" />
 <img src="https://i.pinimg.com/originals/88/66/4d/88664dfe1b9a5d1d40f86691efdcc0b0.png" />
@@ -12,31 +13,40 @@ The goal of this assignment is to build ***API*** for a ***Blogsite***.
 
 <hr>
 
-### APIs
+### API Features:
 
 1. Authentication
-  - Login
-  - Logout
-  - Signup
-2. Blogs
-  - Create
-  - Update
-  - Delete
-  - List of all
-  - View of single blog with comments and likes
-3. Comment
-  - Comment in blog
-  - Comment in comment
-4. Like
-  - Like in blog
-  - Like in comment
+
+- Login
+- Logout
+- Signup
+
+2. Posts
+
+- Create
+- Update
+- Delete
+- List of all
+- Get single post with all the comments with likes counts
+
+3. Comments
+
+- Comment in post.
+- Comments in particular comment.
+
+4. Likes
+
+- Likes in a post.
+- Likes in a comment
 
 <hr>
 
 ### Coding Guidelines
 
-- Please avoid any frameworks and libraries except ***Django REST framework***.
-- Focus more on the ***Django REST framework*** side of the problem.
+- Please fork current problem repository or use it as template and, add [@bhar4t](https://github.com/bhar4t), [@lokendra-smilebots](https://github.com/lokendra-smilebots) as collaborator while intializing repository in github. and follow the given timeline instructions from your mail.
+- The changes/commits will not be considered after timeline mentioned in your mail.
+- Please avoid any frameworks and libraries except **_Django REST framework_**.
+- Focus more on the **_Django REST framework_** side of the problem.
 - You will be evaluated on
   - Modularity of Code
   - Security
@@ -45,3 +55,4 @@ The goal of this assignment is to build ***API*** for a ***Blogsite***.
   - Database designing
   - Logic and cleanliness of code.
   - Completeness.
+- Please ask us for any hurdle in your problem assignment.
