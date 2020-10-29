@@ -1,15 +1,11 @@
-## Interview Assignment
-
-<hr>
-
-### Django Blogsite API
+### Django APIs for Blog
 
 _Don't bother about UIs, we're here for APIs_,
 Here you need to identify the schema/model fields by observing the UIs, The goal of this assignment is to build **_API_** for a **_blog_** site in which you are free to play with as much as possible your sample data.
 
-<img src="https://mockupsforfree.com/wp-content/uploads/2018/09/Blog-2.png" />
-<img src="https://i.pinimg.com/originals/88/66/4d/88664dfe1b9a5d1d40f86691efdcc0b0.png" />
-<img src="https://gblobscdn.gitbook.com/assets%2F-LbzMeM9XfnblRd78nga%2F-Lch7DC2oqHIVpJRm3yA%2F-Lch8pSzvdQYop-esK5S%2FScreen%20Shot%202019-04-17%20at%202.15.01%20PM.png?alt=media&token=098d5092-2de3-4ac1-ae51-4b106da57e4f" />
+<img src="images/blog.png" />
+<img src="images/posts.png" />
+<img src="images/comments.png" />
 
 <hr>
 
