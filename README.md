@@ -21,20 +21,21 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 - Logout
 - Signup
 
-2. Posts
+2. Users
 
-- Create
-- Update
-- Delete
-- List of all
+- A user can able to see their profile.
+
+3. Posts
+
+- A user can Create, Delete, Get a list all the Posts,
 - Get single post with all the comments with likes counts
 
-3. Comments
+4. Comments
 
-- Comment in post.
+- Comments in a post.
 - Comments in particular comment.
 
-4. Likes
+5. Likes
 
 - Likes in a post.
 - Likes in a comment
