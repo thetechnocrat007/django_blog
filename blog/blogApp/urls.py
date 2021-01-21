@@ -1,7 +1,4 @@
 
-from django.urls import path, include
-
-from .views import post_list
 
 """blog URL Configuration
 
@@ -20,8 +17,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from .views import PostDetailAPIView,PostDeleteAPIView,PostCreateAPIView,PostListAPIView
 
 urlpatterns = [
-    path('posts/', post_list),
+    path('post/', PostListAPIView.as_view()),
+    path('post/<pk>:pk/', PostDetailAPIView.as_view()),
+    path('post/<pk>:pk/delete/', PostDeleteAPIView.as_view()),
+    path('post/', PostCreateAPIView.as_view()),
+
 
 ]
