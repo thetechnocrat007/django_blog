@@ -11,7 +11,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 ### API Features:
 
-1. Authentication
+1. Authentication (Optional)
 
 - Login
 - Logout
@@ -44,6 +44,8 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 - The changes/commits will not be considered after timeline mentioned in your mail.
 - Please avoid any frameworks and libraries except **_Django REST framework_**.
 - Focus more on the **_Django REST framework_** side of the problem.
+- After fork do not public the repo
+- You need to add requirements.txt file in project
 - You will be evaluated on
   - Modularity of Code
   - Security
