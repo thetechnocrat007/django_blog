@@ -1,15 +1,15 @@
 from rest_framework import serializers,permissions
-from .models import User, Post, Comment
+from .models import Profile, Post, Comment
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
-        model=User
-        fields=['']
+        model=Profile
+        fields=['name','city','following','followers']
 
 class PostSerializer(serializers.ModelSerializer):
     class Meta:
         model=Post
-        fields=['post_id','title','author','views','likes','content','created_on']
+        fields=['post_id','title','user','views','likes','content','created_on']
 
 class PostCreateSerializer(serializers.ModelSerializer):
     class Meta:

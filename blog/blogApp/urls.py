@@ -1,29 +1,12 @@
 
-
-"""blog URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/3.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
-from django.contrib import admin
 from django.urls import path
-from .views import PostDetailAPIView,PostDeleteAPIView,PostCreateAPIView,PostListAPIView
+from .views import PostDetailAPIView,PostDeleteAPIView,PostCreateAPIView,PostListAPIView,UserDetailAPIView
 
 urlpatterns = [
     path('post/', PostListAPIView.as_view()),
-    path('post/<pk>:pk/', PostDetailAPIView.as_view()),
-    path('post/<pk>:pk/delete/', PostDeleteAPIView.as_view()),
-    path('post/', PostCreateAPIView.as_view()),
-
+    path('post/<int:pk>/', PostDetailAPIView.as_view()),
+    path('post/<int:pk>/delete/', PostDeleteAPIView.as_view()),
+    path('post/create/', PostCreateAPIView.as_view()),
+    path('user/<int:pk>/', UserDetailAPIView.as_view()),
 
 ]
